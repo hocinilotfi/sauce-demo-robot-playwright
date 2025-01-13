@@ -8,7 +8,10 @@ pipeline {
     }
     stages{
         stage('afficher la version'){
-            sh 'robot --version'
+            steps{
+                sh 'robot --version'
+            }
+            
         }
     }
 }
