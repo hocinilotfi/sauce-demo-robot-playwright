@@ -1,4 +1,4 @@
-Pipeline{
+pipeline {
     agent{
         docker{
             image "ghcr.io/marketsquare/robotframework-browser/rfbrowser-stable:latest"
