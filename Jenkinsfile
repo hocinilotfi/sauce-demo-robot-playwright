@@ -1,7 +1,7 @@
 pipeline {
     agent{
         docker{
-            image "marketsquare/robotframework-browser"
+            image 'ppodgorsek/robot-framework:latest'
             args '--entrypoint=""'
         }
     }
