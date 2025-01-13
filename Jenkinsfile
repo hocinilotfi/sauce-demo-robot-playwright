@@ -7,7 +7,10 @@ pipeline {
     }
     stages{
         stage("stage 1"){
-            sh 'echo "********* stage 1"' 
+            steps{
+                    sh 'echo "********* stage 1"' 
+            }
+            
         }
         stage('afficher la version'){
             steps{
@@ -15,7 +18,10 @@ pipeline {
             }
         }
          stage("stage 3"){
-            sh 'echo "********* stage 3"' 
+            steps{
+                sh 'echo "********* stage 3"' 
+            }
+            
         }
 
     }
