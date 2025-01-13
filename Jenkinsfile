@@ -1,7 +1,7 @@
 pipeline {
     agent{
         docker{
-            image "ghcr.io/marketsquare/robotframework-browser/rfbrowser-stable:latest"
+            image "marketsquare/robotframework-browser"
             args '--entrypoint=""'
         }
     }
