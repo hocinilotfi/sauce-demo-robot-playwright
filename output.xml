@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.3 on linux)" generated="2025-01-13T14:28:30.797575" rpa="false" schemaversion="5">
+<suite id="s1" name="Premiertest" source="/home/lotfi-hocini/Documents/MIE LOGWIRE/all_slides/robot-framework-projects/sauce-demo-robot-playwright/tests/premiertest.robot">
+<test id="s1-t1" name="Example Test" line="6">
+<kw name="New Page" owner="Browser">
+<msg time="2025-01-13T14:28:30.896734" level="INFO">Starting Browser process /home/lotfi-hocini/Documents/MIE LOGWIRE/all_slides/robot-framework-projects/sauce-demo-robot-playwright/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js using port 52495</msg>
+<msg time="2025-01-13T14:28:30.897711" level="INFO">Node startup parameters: ['node', '/home/lotfi-hocini/Documents/MIE LOGWIRE/all_slides/robot-framework-projects/sauce-demo-robot-playwright/.venv/lib/python3.12/site-packages/Browser/wrapper/index.js', '52495']</msg>
+<msg time="2025-01-13T14:28:31.800503" level="INFO">Successfully initialized new page object and opened url: https://playwright.dev</msg>
+<msg time="2025-01-13T14:28:31.800797" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
+<arg>https://playwright.dev</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-01-13T14:28:30.878253" elapsed="0.922858"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-01-13T14:28:31.881945" level="INFO">Text: 'Playwright enables reliable end-to-end testing for modern web apps.'</msg>
+<arg>h1</arg>
+<arg>contains</arg>
+<arg>Playwright</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-01-13T14:28:31.801898" elapsed="0.080390"/>
+</kw>
+<status status="PASS" start="2025-01-13T14:28:30.877629" elapsed="1.005019"/>
+</test>
+<status status="PASS" start="2025-01-13T14:28:30.799724" elapsed="1.121946"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Premiertest">Premiertest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

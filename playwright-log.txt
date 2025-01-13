@@ -1,0 +1,31 @@
+{"level":30,"time":"2025-01-13T13:28:31.298Z","pid":59460,"hostname":"adrian","msg":"Listening on 52495"}
+(node:59460) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-01-13T13:28:31.368Z","pid":59460,"hostname":"adrian","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-13T13:28:31.368Z","pid":59460,"hostname":"adrian","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2025-01-13T13:28:31.447Z","pid":59460,"hostname":"adrian","msg":"Changed active context"}
+{"level":30,"time":"2025-01-13T13:28:31.500Z","pid":59460,"hostname":"adrian","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-13T13:28:31.500Z","pid":59460,"hostname":"adrian","msg":"Changed active page"}
+{"level":30,"time":"2025-01-13T13:28:31.794Z","pid":59460,"hostname":"adrian","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-13T13:28:31.806Z","pid":59460,"hostname":"adrian","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-13T13:28:31.806Z","pid":59460,"hostname":"adrian","msg":"Strict mode is enabled, find Locator with h1 in page."}
+{"level":30,"time":"2025-01-13T13:28:31.879Z","pid":59460,"hostname":"adrian","msg":"Retrieved text for element h1 containing Playwright enables reliable end-to-end testing for modern web apps."}
+{"level":30,"time":"2025-01-13T13:28:31.879Z","pid":59460,"hostname":"adrian","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-13T13:28:31.892Z","pid":59460,"hostname":"adrian","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.897Z","pid":59460,"hostname":"adrian","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.901Z","pid":59460,"hostname":"adrian","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.902Z","pid":59460,"hostname":"adrian","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.905Z","pid":59460,"hostname":"adrian","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.906Z","pid":59460,"hostname":"adrian","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.908Z","pid":59460,"hostname":"adrian","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.909Z","pid":59460,"hostname":"adrian","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.912Z","pid":59460,"hostname":"adrian","msg":"Changed active context"}
+{"level":30,"time":"2025-01-13T13:28:31.912Z","pid":59460,"hostname":"adrian","msg":"Changing current active page: page=a78e3e21-4bb5-49f7-8299-d8609730cb45"}
+{"level":30,"time":"2025-01-13T13:28:31.912Z","pid":59460,"hostname":"adrian","msg":"Changed active page"}
+{"level":30,"time":"2025-01-13T13:28:31.915Z","pid":59460,"hostname":"adrian","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-13T13:28:31.919Z","pid":59460,"hostname":"adrian","msg":"Removed page=63268ce8-f2ec-454a-acad-8c4367785558 from context=e8d121ee-df1a-4bb8-8a1f-bf88882c16dd page stack"}
+{"level":30,"time":"2025-01-13T13:28:31.920Z","pid":59460,"hostname":"adrian","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-13T13:28:31.925Z","pid":59460,"hostname":"adrian","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:31.925Z","pid":59460,"hostname":"adrian","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-13T13:28:33.944Z","pid":59460,"hostname":"adrian","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-01-13T13:28:33.980Z","pid":59460,"hostname":"adrian","msg":"End of node method closeAllBrowsers"}
